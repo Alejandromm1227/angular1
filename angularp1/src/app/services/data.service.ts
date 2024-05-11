@@ -7,7 +7,7 @@ import { HttpClient } from "@angular/common/http";
 export class DataService {
 
   constructor() { }
-  API_URL: string = "https://pokeapi.co/api/v2/pokemon/";
+  API_URL: string = "https://swapi.dev/api/people";
 
   httpclient = inject(HttpClient);
   obtenerDatos(){

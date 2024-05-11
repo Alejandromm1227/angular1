@@ -1,2 +1,16 @@
-<h1>Hello!!</h1>
+<main>  
+    <h1>PERSONAJES STAR WARS </h1>
+    <section>
+         <ol>
+            @for (elemento of todosLosDatos; track elemento.results)  {
+                    <ul>
+                       <li>Nombre: {{elemento.name}}</li>
+                       <li>Altura: {{elemento.height}}</li>
+                       <li>Genero: {{elemento.gender}}</li>
+                       <li>Color De Cabello: {{elemento.hair_color}}</li>
+                    </ul>
+            }
+        </ol>
+    </section>
+</main>
 <!-- <router-outlet></router-outlet > -->

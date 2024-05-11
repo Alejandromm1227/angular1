@@ -1,0 +1,17 @@
+li {
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    align-content: center;
+    color: yellow;
+}
+h1 {
+    background-color: black;
+    text-align: center;
+    color: yellow;
+}
+ul {
+    background-color: black;
+    border: yellow;
+    margin: 10px;
+}
