@@ -17,10 +17,10 @@ export class AppComponent {
 
   obtenerTodosLosDatos(){
     this.dataService.obtenerDatos().subscribe((respuesta: any)=>{
-        console.log("respuesta: ", respuesta);
+        /* console.log("respuesta: ", respuesta); */
         if (respuesta.results) {
           this.todosLosDatos = respuesta.results;
-          console.log("bien");
+          /* console.log("bien"); */
         } else {
           console.log("ocurrio un error, no existe respuesta");
         }
